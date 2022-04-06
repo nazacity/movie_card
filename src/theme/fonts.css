@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'DBHeavent-Bold';
+  src: url('/fonts/DBHeaventBd.ttf');
+  font-style: bold;
+  font-weight: 800;
+  font-display: swap;
+  unicode-range: U+E00-E7F;
+}
+@font-face {
+  font-family: 'DBHeavent-Med';
+  src: url('/fonts/DBHeaventMed.ttf');
+  font-style: medium;
+  font-weight: 600;
+  font-display: swap;
+  unicode-range: U+E00-E7F;
+}
+
+@font-face {
+  font-family: 'DBHeavent';
+  src: url('/fonts/DBHeavent.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+E00-E7F;
+}

@@ -1,0 +1,113 @@
+{
+  "signin": "เข้าสู่ระบบ",
+  "page_not_found": "ไม่เจอหน้าที่ท่านค้นหา",
+  "locales": {
+    "en": "En",
+    "th": "Th"
+  },
+  "side_bar": {
+    "approval": "การอนุมัติ",
+    "review_approve": "ภาพรวมการอนุมัติ",
+    "management": "การจัดการ",
+    "content_management": "การจัดการเนื้อหา",
+    "product_management": "การจัดการสินค้า",
+    "content_update": "อัพเดทเนื้อหา",
+    "news": "ข่าว",
+    "marketing_centre": "การตลาด",
+    "geofence": "Geofence",
+    "campaign_management": "จัดการแคมเปญ",
+    "voucher_approve": "อนุมัติบัตรกำนัล",
+    "promotion_approve": "อนุมัติโปรโมชั่น",
+    "product_approve": "อนุมัติสินค้า",
+    "report": "รายงาน",
+    "dashboard": "แดชบอร์ด",
+    "chat_monitor": "ห้องแชท",
+    "status_management": "การจัดการสถานะ",
+    "merchant_management": "การจัดการผู้ขาย",
+    "order_management": "การจัดการคำสั่ง",
+    "design_management": "การจัดการดีไซน์",
+    "overview": "ภาพรวม",
+    "banner": "แบนเนอร์",
+    "contact": "ติดต่อเรา",
+    "help_center": "FAQ เนื้อหา"
+  },
+  "auth": {
+    "signin": "เข้าสู่ระบบ",
+    "signup": "สมัครสมาชิก",
+    "username": "ชื่อบัญชีผู้ใช่",
+    "password": "รหัสผ่าน",
+    "signin_successfully": "เข้าสู่ระบบสำเร็จ",
+    "signup_successfully": "สมัครสมาชิกสำเร็จ",
+    "successfully_signout": "ออกจากระบบสำเร็จ",
+    "signout": "ออกจากระบบ"
+  },
+  "errors": {
+    "email_validate": "อีเมลล์ไม่ถูกต้อง",
+    "required": "กรุณาใส่ข้อมูล"
+  },
+  "confirm_modal": {
+    "confirm": "ตกลง",
+    "cancel": "ยกเลิก"
+  },
+  "upload_image": {
+    "max_file_size": "รูปภาพต้องมีขนาดไม่เกิน",
+    "resolution": "ขนาดของรูปภาพ",
+    "only": "เท่านั้น"
+  },
+  "status": {
+    "publish": "เผยแพร่",
+    "hide": "ซ่อน"
+  },
+  "save": "บันทึก",
+  "cancel": "ยกเลิก",
+  "confirm": "ยืนยัน",
+  "delete": "ลบ",
+  "baht": "บาท",
+  "time": {
+    "day": "วัน",
+    "month": "เดือน",
+    "year": "ปี",
+    "hour": "ชั่วโมง",
+    "minute": "นาที"
+  },
+  "month": "month",
+  "contact_store": "ติดต่อร้าน",
+  "view_store": "ดูร้านค้า",
+  "contact": {
+    "buyer_member": "สมาชิกผู้ขาย",
+    "seller_member": "สมาชิกผู้ซื้อ",
+    "subject": {
+      "add": "เพิ่มหัวข้อ",
+      "edit": "แก้ไขหัวข้อ"
+    },
+    "name": "ชื่อ",
+    "member_type": "ประเภทสมาชิก",
+    "recipients": "recipients",
+    "resourceUrl": "ไอคอน",
+    "table": {
+      "subject": "หัวข้อ",
+      "name": "ชื่อลูกค้า",
+      "tel": "เบอร์โทรศัพท์ลูกค้า",
+      "email": "อีเมลล์ลูกค้า"
+    }
+  },
+  "all": "ทั้งหมด",
+  "lang": {
+    "th": "ภาษาไทย",
+    "en": "ภาษาอังกฤษ"
+  },
+  "save_success": "บันทึกสำเร็จ",
+  "help_center": {
+    "add": "เพิ่ม FaQ",
+    "edit": "แก้ไข FaQ",
+    "title": "คำถาม",
+    "subject": "หัวข้อ",
+    "description": "เนื้อหา",
+    "table": {
+      "subject": "หัวข้อ",
+      "title": "Title",
+      "action": "Action",
+      "popular": "IsPopular"
+    }
+  }
+}

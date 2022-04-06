@@ -1,0 +1,111 @@
+{
+  "signin": "Sign in",
+  "page_not_found": "Page Not Found",
+  "locales": {
+    "en": "En",
+    "th": "Th"
+  },
+  "side_bar": {
+    "approval": "Approval",
+    "review_approve": "Review Approve",
+    "management": "Management",
+    "content_management": "Content Management",
+    "product_management": "Product Management",
+    "content_update": "Content Update",
+    "news": "News",
+    "marketing_centre": "Marketing Centre",
+    "geofence": "Geofence",
+    "campaign_management": "Campaign Management",
+    "voucher_approve": "Voucher Approve",
+    "promotion_approve": "Promotion Approve",
+    "product_approve": "Product Approve",
+    "report": "Report",
+    "dashboard": "Dashboard",
+    "chat_monitor": "Chat Monitor",
+    "status_management": "Status Management",
+    "merchant_management": "Merchant Management",
+    "order_management": "Order Management",
+    "design_management": "Design Management",
+    "overview": "Overview",
+    "banner": "Banner",
+    "contact": "Contact",
+    "help_center": "FAQ content"
+  },
+  "auth": {
+    "signin": "Sign in",
+    "signup": "Sign up",
+    "signin_successfully": "Sign in successfully",
+    "register_successfully": "Sign up successfully",
+    "successfully_signout": "Sign out successfully",
+    "signout": "Sign out"
+  },
+  "errors": {
+    "email_validate": "Email is incorrect",
+    "required": "Fill information"
+  },
+  "confirm_modal": {
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "upload_image": {
+    "max_file_size": "Image file size must be less than",
+    "resolution": "Image size must be",
+    "only": "only"
+  },
+  "status": {
+    "publish": "Publish",
+    "hide": "Hide"
+  },
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "baht": "Baht",
+  "time": {
+    "day": "day",
+    "month": "month",
+    "year": "year",
+    "hour": "hours",
+    "minute": "minutes"
+  },
+  "month": "month",
+  "contact_store": "ติดต่อร้าน",
+  "view_store": "ดูร้านค้า",
+  "contact": {
+    "buyer_member": "Buyer member",
+    "seller_member": "Seller member",
+    "subject": {
+      "add": "Add subject",
+      "edit": "Edit subject"
+    },
+    "name": "name",
+    "member_type": "Member type",
+    "recipients": "recipients",
+    "resourceUrl": "Icon",
+    "table": {
+      "subject": "Subject",
+      "name": "Customer Name",
+      "tel": "Customer Tel",
+      "email": "Customer email"
+    }
+  },
+  "all": "All",
+  "lang": {
+    "th": "Thai language",
+    "en": "English language"
+  },
+  "save_success": "save success",
+  "help_center": {
+    "add": "Add FaQ",
+    "edit": "Edit FaQ",
+    "title": "Title",
+    "subject": "subject",
+    "description": "Description",
+    "table": {
+      "subject": "Subject",
+      "title": "Title",
+      "action": "Action",
+      "popular": "IsPopular"
+    }
+  }
+}

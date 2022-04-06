@@ -1,0 +1,125 @@
+const COLORS = {
+  primary: {
+    main: '#0C5AE5',
+    light: '#1D78E3',
+    dark: '#0A3BC2',
+    darker: '#0C1592',
+  },
+  secondary: {
+    main: '#1e4db7',
+    light: '#ddebff',
+    dark: '#173f98',
+  },
+  success: {
+    main: '#55b32c',
+    light: '#ebfaf2',
+    dark: '#00964b',
+    contrastText: '#ffffff',
+  },
+  danger: {
+    main: '#e46a76',
+    light: '#fdf3f5',
+  },
+  info: {
+    main: '#0bb2fb',
+    light: '#a7e3f4',
+  },
+  error: {
+    main: '#ff0000',
+    light: '#fdf3f5',
+    dark: '#e45a68',
+  },
+  warning: {
+    main: '#fec90f',
+    light: '#fff4e5',
+    dark: '#dcb014',
+    contrastText: '#ffffff',
+  },
+  text: {
+    primary: 'rgba(0, 0, 0, 0.87)',
+    secondary: '#777e89',
+    danger: '#fc4b6c',
+  },
+  grey: {
+    A100: '#ecf0f2',
+    A200: '#99abb4',
+    A400: '#767e89',
+    A700: '#e6f4ff',
+  },
+  action: {
+    disabledBackground: 'rgba(73,82,88,0.12)',
+    hoverOpacity: 0.02,
+    hover: 'rgba(0, 0, 0, 0.03)',
+  },
+  background: {
+    default: '#fafbfb',
+    dark: '#ffffff',
+    paper: '#ffffff',
+    blue_light: '#f5fafe',
+  },
+  black: '#000',
+  white: '#fff',
+  gray: {
+    0: '#f6f6f6',
+    1: '#e0e0e0',
+    2: '#d3d3d3',
+    3: '#939393',
+    4: '#696969',
+    5: '#3f3f3f',
+  },
+  blue: {
+    1: '#eceef5',
+    2: '#ABC7E3',
+    3: '#6699CC',
+    4: '#4482C1',
+    5: '#2A547E',
+  },
+  red: {
+    1: '#ffcccc',
+    2: '#ff9999',
+    3: '#ff4c4c',
+    4: '#ff3232',
+    5: '#ff0000',
+  },
+  green: {
+    1: '#eef7e9',
+    2: '#cce8bf',
+    3: '#99d180',
+    4: '#76c256',
+    5: '#55b32c',
+  },
+  orange: {
+    1: '#fff3cc',
+    2: '#ffe899',
+    3: '#ffdc66',
+    4: '#ffd132',
+    5: '#ffc600',
+  },
+  transparent: {
+    1: 'rgba(0,0,0,0.1)',
+    2: 'rgba(0,0,0,0.3)',
+    3: 'rgba(0,0,0,0.5)',
+    4: 'rgba(0,0,0,0.7)',
+    5: 'rgba(0,0,0,0.9)',
+  },
+  product_status: {
+    draft: '#4482C1',
+    waiting_for_approval: '#ffc600',
+    approved: '#55b32c',
+    banned: '#ff0000',
+    rejected: '#ffc600',
+    sold: '#000',
+    deleted: '#ff0000',
+  },
+  banner_status: {
+    publish: '#55b32c',
+    hide: '#ff0000',
+  },
+  product_card_badge: {
+    new: '#F7383A',
+    used: '#007261',
+    kinto: '#0591B7',
+  },
+};
+
+export default COLORS;
