@@ -1,13 +1,7 @@
-export interface IBanner {
-  attributes: {
-    order: number;
-    resourceUrl: string;
-    type: string;
-    callBackUrl: string;
-    expiryDate: string;
-    description: string;
-    hexColorCode: string;
-  };
-  id: string;
-  type: string;
+export interface IMovie {
+  description: string;
+  id: number;
+  image: string;
+  name: string;
+  time: string;
 }

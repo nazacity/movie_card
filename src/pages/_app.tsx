@@ -9,11 +9,7 @@ import createEmotionCache from 'createEmotionCache';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider as ReduxProvider } from 'react-redux';
 import store, { persistor } from 'store';
-import TopNavBar from 'component/layout/navbar/TopNavBar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
-import Sidebar from 'component/layout/sidebar/Sidebar';
-import PageContainer from 'component/layout/container/PageContainer';
-import LayoutSnackbar from 'component/layout/snackbar/LayoutSnackbar';
 import 'theme/custom_slide.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -36,7 +32,7 @@ const MyApp = (props: MyAppProps) => {
           <Head>
             <link rel="icon" href="/images/logos/logo.png" />
             <link rel="apple-touch-icon" href="/images/logos/logo.png" />
-            <title>Admin- ShopSabuy</title>
+            <title>Movies</title>
             <meta
               name="viewport"
               content="initial-scale=1, width=device-width"
@@ -60,19 +56,9 @@ const MyApp = (props: MyAppProps) => {
             />
           </Head>
           <ThemeProvider theme={THEME}>
-            <TopNavBar
-              sx={{
-                paddingLeft: sideBarOpen ? { xs: 0, sm: '265px' } : 0,
-                backgroundColor: '#fafbfb',
-              }}
-            />
             <CssBaseline />
-            <PageContainer>
-              <Component {...pageProps} />
-            </PageContainer>
-            <Sidebar setSideBar={setSideBar} />
+            <Component {...pageProps} />
           </ThemeProvider>
-          <LayoutSnackbar />
         </CacheProvider>
       </PersistGate>
     </ReduxProvider>
