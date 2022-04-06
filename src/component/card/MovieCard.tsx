@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { IMovie } from 'models/movie.model';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 interface IProps {
   item: IMovie;
@@ -25,10 +26,20 @@ const MovieCard: React.FC<IProps> = ({ item, index }) => {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography
+            gutterBottom
+            variant="h3"
+            component="div"
+            sx={{ fontSize: 25, my: 0 }}
+          >
             {item.name}
           </Typography>
-          <Typography variant="body1" color="text.secondary">
+          <Typography
+            variant="h5"
+            color="text.secondary"
+            sx={{ display: 'flex', alignItems: 'center', mb: 1 }}
+          >
+            <AccessTimeIcon />
             {item.time}
           </Typography>
           <Typography variant="body2" color="text.secondary">
