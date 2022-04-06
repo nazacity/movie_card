@@ -18,7 +18,7 @@ const MovieCard: React.FC<IProps> = ({ item, index }) => {
   }, [index]);
   return (
     <>
-      <Card sx={{ width: 568, p: 0, borderRadius: '15px' }}>
+      <Card sx={{ width: 568, height: 598, p: 0, borderRadius: '15px' }}>
         <CardMedia
           component="img"
           height={300}
